@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```ruby
 f = 12.125
 
 o = Floatboat::Oracle.new(12.125)
