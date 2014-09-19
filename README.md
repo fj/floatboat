@@ -7,7 +7,7 @@ Floatboat is a tiny Ruby library for peeking inside Ruby's IEEE 754 floating poi
 ```ruby
 f = 12.125
 
-o = Floatboat::Oracle.new(12.125)
+o = Floatboat::Oracle.new(f)
 # => #<Floatboat::Oracle:0x007fb1f1a9f1f0
 # @exponent="10000000010",
 # @mantissa="1000010000000000000000000000000000000000000000000000",
