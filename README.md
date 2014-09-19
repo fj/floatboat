@@ -2,20 +2,6 @@
 
 Floatboat is a tiny Ruby library for peeking inside Ruby's IEEE 754 floating point representation.
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'floatboat'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install floatboat
-
 ## Usage
 
 ```ruby
@@ -57,6 +43,21 @@ inf = Floatboat::Oracle.new(Float::INFINITY)
 !!inf.to_f.infinite?
 # => true
 ```
+
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'floatboat'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install floatboat
 
 ## Contributing
 
